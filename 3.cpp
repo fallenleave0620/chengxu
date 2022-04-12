@@ -1,9 +1,9 @@
 #include<bits/stdc++.h>
 #include<windows.h>
 #include<cmath>//数学头文件 <cmath>
-#include<iostream>//该文件定义了 cin、cout、cerr 和 clog 对象，分别对应于标准输入流、标准输出流、非缓冲标准错误流和缓冲标准错误流。
-#include<iomanip>//该文件通过所谓的参数化的流操纵器（比如 setw 和 setprecision），来声明对执行标准化 I/O 有用的服务。
-#include<fstream>//该文件为用户控制的文件处理声明服务。
+#include<iostream>/*该文件定义了 cin、cout、cerr 和 clog 对象，分别对应于标准输入流、标准输出流、非缓冲标准错误流和缓冲标准错误流。*/
+#include<iomanip>/*该文件通过所谓的参数化的流操纵器（比如 setw 和 setprecision），来声明对执行标准化 I/O 有用的服务。*/
+#include<fstream>/*该文件为用户控制的文件处理声明服务。*/
 /*在变量声明的时候，
 如果没有确切的地址可以赋值，
 为指针变量赋一个 NULL 值是一个良好的编程习惯。
