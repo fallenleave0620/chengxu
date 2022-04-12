@@ -13,7 +13,7 @@ int main(){
 }
 void test(int *a,int *b){
     for(int i=0;i<4;i++){
-        (a+i)=(b+i);
+        a=b;
     }
-    printf("%s\n%s",a,b);
+    printf("%d\n%d",*a,*b);
 }
