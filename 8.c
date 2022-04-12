@@ -3,7 +3,7 @@
 #include"windows.h"
 int main(){
     int *p;
-    int a[4],b[4];
+    int a[4]={0},b[4]={1,2,3,4};
     // p=&a;
     // printf("%x,%d",p,*p);
     void test(int *a,int *b);
