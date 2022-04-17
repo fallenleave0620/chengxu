@@ -56,4 +56,7 @@ int main(void)
    cout << "Total paint cost: $" << Rect.getCost(area) << endl;
  
    return 0;
-}
+}/*公有继承（public）：当一个类派生自公有基类时，基类的公有成员也是派生类的公有成员，基类的保护成员也是派生类的保护成员，基类的私有成员不能直接被派生类访问，但是可以通过调用基类的公有和保护成员来访问。
+保护继承（protected）： 当一个类派生自保护基类时，基类的公有和保护成员将成为派生类的保护成员。
+私有继承（private）：当一个类派生自私有基类时，基类的公有和保护成员将成为派生类的私有成员。*/
+//class derived-class: access-specifier base-class继承语法格式
