@@ -1,7 +1,6 @@
 #include"stdio.h"
 #include"string.h"
 #include"windows.h"
-#include"bits/stdc++.h"
 int main(){
     int *p;
     int a[4]={0},b[4]={1,2,3,4};
@@ -9,6 +8,8 @@ int main(){
     // printf("%x,%d",p,*p);
     void test(int *a,int *b);
     test(a,b);
+    // extern int cout ;
+    // extern int endl;
     printf("\n");
     struct android{
         char a[10];
