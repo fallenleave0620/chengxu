@@ -8,6 +8,12 @@ int main(){
     // printf("%x,%d",p,*p);
     void test(int *a,int *b);
     test(a,b);
+    struct android{
+        char a[10]="version";
+        int number;
+        int year;
+    }android11;
+    android android10;
     system("pause");
     return 0;
 }
