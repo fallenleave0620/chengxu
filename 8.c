@@ -16,10 +16,12 @@ int main(){
         int number;
         int year;
     }android11={"android12",12,2020};
-    printf("android version=%s\nandroid num=%d\nandroid create=%d\n",
-    android11.a,android11.number,android11.year);/*成员运算符的优先级最高，
+    /*成员运算符的优先级最高，
     等同于括号/中括号*/
-    struct android android10;
+    struct android *android10;
+    android10=&android11;
+    printf("android version=%s\nandroid num=%d\nandroid create=%d\n",
+    android10->a,android10->number,android10->year);//->指向运算符
     struct android android9[3];
     system("pause");
     return 0;
