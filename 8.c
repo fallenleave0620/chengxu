@@ -8,7 +8,7 @@ int main(){
     // printf("%x,%d",p,*p);
     void test(int *,int *);
     void (*TESTt)(int *a,int *b);//指向函数的指针，函数名为一个指针，是函数入口
-    TESTt=test;//该指针指向已知函数test
+    TESTt=test;//该指针指向已知函数test（它可随时指向不同函数），如果调用，格式为c=(*p)(a,b);
     test(a,b);
     // extern int cout ;
     // extern int endl;
@@ -35,3 +35,8 @@ void test(int *a,int *b){
     }
     printf("%d\n%d",*a,*b);
 }
+/*void fun(int(*x1)(int),int(*x2)(int,int)){
+    int a,b,i=3,j=5;
+    a=(*x1)(i);
+    b=(*x2)(i,j);//指向函数的指针变量作为参数传递，可在该函数中调用相关指针指向的函数
+}*/
