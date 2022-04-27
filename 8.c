@@ -23,6 +23,7 @@ int main(){
     printf("android version=%s\nandroid num=%d\nandroid create=%d\n",
     android10->a,android10->number,android10->year);//->指向运算符
     struct android android9[3];
+    char *sb="git commit some files";
     system("pause");
     return 0;
 }
