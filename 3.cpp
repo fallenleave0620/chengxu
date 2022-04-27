@@ -13,6 +13,7 @@ using namespace std;
 int main()
 {
     int a=66u,b=22l;
+    int *a=NULL;//NULL空指针
     double x=3e+5l;
     /*整数常量也可以带一个后缀，
     后缀是 U 和 L 的组合，
