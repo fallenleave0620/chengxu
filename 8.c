@@ -7,6 +7,8 @@ int main(){
     // p=&a;
     // printf("%x,%d",p,*p);
     void test(int *a,int *b);
+    void (*TESTt)(int *a,int *b);//指向函数的指针，函数名为一个指针，是函数入口
+    TESTt=test;//该指针指向已知函数test
     test(a,b);
     // extern int cout ;
     // extern int endl;
