@@ -6,7 +6,7 @@ int main(){
     int a[4]={0},b[4]={1,2,3,4};
     // p=&a;
     // printf("%x,%d",p,*p);
-    void test(int *a,int *b);
+    void test(int *,int *);
     void (*TESTt)(int *a,int *b);//指向函数的指针，函数名为一个指针，是函数入口
     TESTt=test;//该指针指向已知函数test
     test(a,b);
